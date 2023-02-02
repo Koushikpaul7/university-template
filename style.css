@@ -1,0 +1,448 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+ul li p{
+    font-size: 19px;
+    margin-bottom: 0;
+}
+.navbar-top h6{
+    color: #010137;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.navbar-top p{
+    font-size: 14px;
+    margin-left: 45px;
+    margin-top: -10px;
+}
+.Top-head{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.navbar-toggler-icon{
+    padding-top: 5px;
+}
+.navbar-toggler{
+    margin: 10px;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden !important;
+}
+.navbar-top{
+    margin-top: 6px;
+}
+a{
+    text-decoration: none;
+}
+.logo-text{
+    color: orangered;
+}
+.icon {
+    color: orangered;
+}
+
+.icon-container{
+    height: auto;
+}
+
+.border-class{
+    border: 1px solid gray;
+    padding:10px;
+    transform: rotate(45deg);
+}
+.navbar{
+    background: #010137;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+.location a h6{
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.location a p{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.form-control, .me-2 {
+    animation: slide 1s 1;
+  }
+  
+  .show-hide {
+    display: none; 
+  }
+
+  li.nav-item:hover{
+    background-color: orangered;
+  }
+  li{
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* main section */
+  .section-heading h3{
+    font-weight: 700;
+  }
+
+  .background{
+    width: 100%;
+    background: rgba(0,0,0,0.7) url('https://img.freepik.com/free-photo/outdoor-portrait-serious-curly-female-student-sitting-with-laptop-ground_197531-6965.jpg?w=740&t=st=1675241083~exp=1675241683~hmac=791bd3410383f84a6208f3f95d5ef33026110106bbc8d0e42b5aa529482d778d');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover;
+    -moz-background-size:cover ;
+    top:0%;
+    background-blend-mode: darken;
+}
+.main-section-contents p{
+    font-size: 18px;
+}
+
+
+.spacing{
+    letter-spacing: 5px;
+}
+.background h1{ 
+color: #fff;
+font-weight: bolder;
+}
+.sub-text{
+    color: #e46e1f;
+}
+button{
+    background: #e46e1f;
+    color: #fff;
+}
+/* countdown */
+.countdown-bg{
+    background: #010137;
+}
+.cursor{
+    cursor: pointer;
+}
+.bg-icon{
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: #fff;
+}
+
+/* services */
+.services{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.service-heading{
+    padding-bottom:15px;
+}
+
+.timeline{
+    
+    width: 100%;
+    background: rgba(0,0,0,0.7) url('https://img.freepik.com/premium-photo/front-view-four-concentrated-multiethnic-young-people-college-students-preparing-their-homework-library-room_161094-3287.jpg?w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover;
+    -moz-background-size:cover ;
+    top:0%;
+    background-blend-mode: darken;
+    
+}
+.timeline .container .row{
+    min-height: 80vh;
+}
+.cards-gap{
+    margin-top: 80px;
+}
+.history-tl-container{
+    position:relative;
+  }
+  dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 16px;
+}
+
+.history-tl-container ul.tl li{
+      list-style: none;
+      border-left:1px dashed #d97211;
+      padding: 5px;
+      padding:0 0 30px 30px;
+      position:relative;
+      color: #fff;
+  }
+  .history-tl-container ul.tl li:last-child{
+     border-left:none;
+    }
+  .history-tl-container ul.tl li::before{
+      position: absolute;
+      left: -18px;
+      top: 0;
+      content: "1 ";
+      
+     text-align: center;
+      border-radius: 50%;
+      background: #fc8f1a;
+      height: 30px;
+      width: 30px;
+  }
+  .item-title{
+    font-size: 19px;
+  }
+  
+  ul.tl li .item-detail p{
+      color: #fff;
+      font-size:16px;
+  }
+
+
+/* courses */
+.course-area{
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.button-up{
+    margin-top: -20px;
+}
+.courses-row{
+    padding-bottom: 50px;
+}
+
+/* Summary */
+
+.summary-area{
+    width: 100%;
+    background: rgba(0,0,0,0.7) url('https://img.freepik.com/free-photo/group-five-african-college-students-spending-time-together-campus-university-yard-black-afro-friends-studying-education-theme_627829-6007.jpg?w=740&t=st=1675142059~exp=1675142659~hmac=652a9fa8661f63f220a0332fbe999c047ab34d0754249ea8af34c4e9d67bd35f');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover;
+    -moz-background-size:cover ;
+    top:0%;
+    background-blend-mode: darken;
+   
+}
+.summary-area p{
+    color: #fff;
+}
+.summary-area h4{
+    color: #e46e1f;
+    margin-bottom: 0;
+    font-size: 28px;
+}
+
+
+.summary-area .container .row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* events */
+.events-area{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.events-area h6{
+    color: #a0a0a0;
+ }
+
+ /* photo gallery */
+ .photo-gallery.row{
+    height: 60vh;
+ }
+.gallery-content-1 img{
+    height: 300px; 
+    width: 100%;  
+}
+.gallery-content-2-up img{
+    height: 150px;
+    width: 100%;
+}
+.gallery-content-3-down img{
+    height: 150px;
+    width: 100%;
+}
+
+/* Latest news */
+.latest-news{
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.latest-timing{
+    font-size: 12px;
+}
+.latest-details p{
+    font-size: 16px;
+    margin-top: -12px;
+}
+
+/* newsletter */
+.newsletter-area{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.form-control{
+    border-radius: 500px ;
+}
+.btn{
+    border-radius: 500px ;
+    background:#d97211;
+}
+.footer-area{
+    width: 100%;
+    background: 	rgb(1, 1, 55,0.8) url('https://img.freepik.com/free-vector/stylish-glowing-digital-red-lines-banner_1017-23964.jpg?w=826&t=st=1675164829~exp=1675165429~hmac=d4f9c83fe0a47415ea89d8a6a745971b86a7f6cbec107b2c1dc705986cc88e4b');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover;
+    -moz-background-size:cover ;
+    top:0%;
+    background-blend-mode: darken;
+    color: #fff;
+}
+.icon-2{
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    background: #D3D3D3;
+    color: #010137;
+    font-size: 15px;
+}
+
+.links-gap{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.links-gap-2{
+    padding-top: 8px;
+    margin-bottom: 8px;
+    
+}
+.footer-sub-links{
+    font-size: 12px;
+}
+.footer-icons a{
+    margin-right: 15px;
+}
+
+.links-container{
+    margin-top: 20px;
+}
+
+.links-container h6{
+    font-size: 18px;
+}
+.links-container a{
+    font-size: 16px;
+}
+
+
+
+
+
+/* media query */
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+
+    .navbar-toggler{
+      border: 2px solid #fff;
+       color: #D3D3D3;
+       margin: 10px;
+    }
+    .navbar-toggler-icon{
+        color: #D3D3D3;
+      
+       
+    }
+    .background {
+      height:auto;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .gallery-content-3-down{
+        width: 100%;
+        height: auto;
+    }
+    .services{
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .services .col-md-6{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+   
+    
+    .counter-sm-padding{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .course-area .col-md-6{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .timeline{
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+   
+    .summary-area .container .row {
+        height: auto;
+    }
+    .event-timing{
+        font-size: 14px;
+    }
+
+
+    .newsletter-area .row {
+        height: auto;
+    }
+    .nl{
+        text-align: center;
+    }
+    .mob-view-gap{
+        padding-bottom: 80px;
+    }
+    .mob-view-gap:last-child{
+        padding-bottom: 0;
+    }
+
+    .input-group{
+        margin: 0 auto;
+    }
+    .footer-area{
+        text-align: center;
+    }
+   
+    
+  }
+  @media (min-width: 768px) {
+    .container-sm {
+      width: 100%;
+      max-width: none;
+      padding: 0;
+    }
+  }  
