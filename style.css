@@ -22,6 +22,7 @@ ul li p{
 .Top-head{
     padding-top: 15px;
     padding-bottom: 10px;
+    overflow-x: hidden;
 }
 .navbar-toggler-icon{
     padding-top: 5px;
@@ -362,7 +363,7 @@ button{
 
 
 /* media query */
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (max-width: 891px) {
 
     .navbar-toggler{
       border: 2px solid #fff;
@@ -370,9 +371,11 @@ button{
        margin: 10px;
     }
     .navbar-toggler-icon{
-        color: #D3D3D3;
-      
-       
+        color: #D3D3D3; 
+    }
+    .Top-head{
+        padding-top: 0;
+        padding-bottom: 0;
     }
     .background {
       height:auto;
