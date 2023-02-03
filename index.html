@@ -30,7 +30,7 @@
     <header class="container-fluid">
       <!-- navbar Top -->
       <div class="Top-head">
-        <div class="container d-none d-md-none ">
+        <div class="container d-none d-md-none d-lg-block">
           <div class="row">
             <div class="col-md-3">
               <div class="d-flex align-items-center">
@@ -42,11 +42,11 @@
               </div>
             </div>
             <div class="col-md-9">
-              <div class="location d-flex justify-content-between">
-                <div class="d-flex align-items-center">
+              <div class="location d-flex justify-content-around">
+                <div class="d-flex align-items-center ">
                   <i class="fa-regular fa-clock icon border-class me-3 fs-6">
                   </i>
-                  <div class="">
+                  <div class="top-time">
                     <a href="#">
                       <h6 class="text-uppercase">Working Time:</h6></a
                     >
@@ -55,10 +55,10 @@
                     >
                   </div>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center ">
                   <i class="fa-regular fa-clock icon border-class me-3 fs-6">
                   </i>
-                  <div class="">
+                  <div class="top-time">
                     <a href="#">
                       <h6 class="text-uppercase">Working Time:</h6></a
                     >
@@ -74,7 +74,7 @@
        </div>   
       </div>
       <!-- Menu -->
-      <div class="m-0 p-0">
+      <div id="myHeader" class="menu-list m-0 p-0">
         <nav class="navbar navbar-expand-lg text-white">
           <div class="container">
             <div class="d-flex">
@@ -92,7 +92,7 @@
                 ></span>
               </button>
               <a href="#"
-                ><h1 class="text-white mt-2 d-block d-md-none">
+                ><h1 class="text-white mt-2 d-block d-lg-none">
                   Uni<span class="logo-text">ca</span>
                 </h1></a
               >
@@ -186,12 +186,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-12 my-5">
+          <div class="col-md-4 col-12 my-5" id="demo">
             <div class="row">
               <div class="col-md-3 col-3 border-end">
                 <div class="d-flex flex-column mx-auto">
               
-                    <h3 class="text-white">00</h3>
+                    <h3 class="text-white text-center" id="day"></h3>
                     <h5 class="text-white">Days</h5>
                   </div>
                 
@@ -199,48 +199,49 @@
               <div class="col-md-3 col-3 border-end">
                 <div class="d-flex flex-column mx-auto">
                   <div class=" ms-1">
-                    <h3 class="text-white">00</h3>
-                    <h5 class="text-white">Days</h5>
+                    <h3 class="text-white text-center" id="hour"></h3>
+                    <h5 class="text-white">Hours</h5>
                   </div>
                 </div>
               </div>
               <div class="col-md-3 col-3 border-end">
                 <div class="d-flex flex-column mx-auto">
                 
-                    <h3 class="text-white">00</h3>
-                    <h5 class="text-white">Days</h5>
+                    <h3 class="text-white text-center"id="minute"></h3>
+                    <h5 class="text-white">Minutes</h5>
                   
                 </div>
               </div>
               <div class="col-md-3 col-3">
                 <div class="d-flex flex-column mx-auto">
                   <div class="text-white">
-                    <h3 class="text-white">00</h3>
-                    <h5 class="text-white">Days</h5>
+                    <h3 class="text-white text-center"id="second"></h3>
+                    <h5 class="text-white">Seconds</h5>
                   </div>
                 </div>
               </div>
             </div>
+            <p id="demo"></p>
           </div>
         </div>
       </div>
     </section>
     <!-- services -->
     <section class="services">
-      <div class="container my-5">
+      <div class="container my-lg-5">
         <div class="section-heading">
           <h3 class="text-center service-heading">Our services</h3>
           <p class="text-center">
             We provide the oppurtunity to prepare for life
           </p>
         </div>
-        <div class="py-5">
+        <div class="py-lg-5">
           <div class="row gy-md-5 g-2">
             <div class="col-md-6 col-lg-4 col-12">
               <div class="row">
                 <div class="col-md-12">
                   <div class="row">
-                    <div class="col-md-3 col-12 text-lg-end  text-center">
+                    <div class="col-md-3 col-12 text-lg-end text-md-end text-center">
                       <p>
                         <i class="fa-solid fa-headphones fs-2 icon mt-2"></i>
                       </p>
@@ -261,7 +262,7 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="row">
-                    <div class="col-md-3 text-lg-end  text-center col-12">
+                    <div class="col-md-3 text-lg-end text-md-end  text-center col-12">
                       <p>
                         <i
                           class="fa-sharp fa-solid fa-house-flood-water-circle-arrow-right icon fs-2 mt-2"
@@ -284,7 +285,7 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="row">
-                    <div class="col-md-3 text-lg-end  text-center col-12">
+                    <div class="col-md-3 text-lg-end text-md-end text-center col-12">
                       <p>
                         <i
                           class="fa-solid fa-computer-mouse fs-2 mt-2 icon"
@@ -307,7 +308,7 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="row">
-                    <div class="col-md-3 text-lg-end  text-center col-12">
+                    <div class="col-md-3 text-lg-end text-md-end text-center col-12">
                       <p>
                         <i
                           class="fa-sharp fa-solid fa-globe fs-2 mt-2 icon"
@@ -330,7 +331,7 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="row">
-                    <div class="col-md-3 text-lg-end  text-center col-12">
+                    <div class="col-md-3 text-lg-end text-md-end text-center col-12">
                       <p>
                         <i class="fa-solid fa-list-check fs-2 mt-2 icon"></i>
                       </p>
@@ -351,7 +352,7 @@
               <div class="row g">
                 <div class="col-md-12">
                   <div class="row">
-                    <div class="col-md-3 text-lg-end  text-center col-12">
+                    <div class="col-md-3 text-lg-end text-md-end text-center col-12">
                       <p>
                         <i class="fa-solid fa-flask-vial mt-2 icon fs-2"></i>
                       </p>
@@ -427,7 +428,7 @@
     <!-- Courses -->
     <section class="course-area">
       <div class="container">
-        <div class="text-center section-heading mb-5">
+        <div class="text-center section-heading mb-lg-5">
           <h3>Our Courses</h3>
           <p>Building a better world, one course at a time</p>
         </div>
@@ -675,11 +676,11 @@
             <h3 class="text-center py-3">
               Certificate course writing for a global market.
             </h3>
-            <div class="d-flex justify-content-center text-muted fw-bold event-timing">
-              <p class="me-2">
+            <div class="d-lg-flex flex-sm-column flex-lg-row justify-content-center text-muted fw-bold event-timing">
+              <p class="me-2 text-lg-start text-sm-center text-center">
                 <i class="fa-regular fa-calendar me-2 icon"></i>8.00 Am-10.00 Am
               </p>
-              <p>
+              <p class="text-lg-start text-sm-center text-center" >
                 <i class="fa-solid fa-location-dot mx-2 icon"></i>Center
                 building Block-A
               </p>
@@ -710,11 +711,11 @@
             <h3 class="text-center py-3">
               Certificate course writing for a global market.
             </h3>
-            <div class="d-flex justify-content-center text-muted fw-bold event-timing">
-              <p class="me-2">
+            <div class="d-lg-flex flex-sm-column flex-lg-row justify-content-center text-muted fw-bold event-timing">
+              <p class="me-2 text-lg-start text-sm-center text-center">
                 <i class="fa-regular fa-calendar me-2 icon"></i>8.00 Am-10.00 Am
               </p>
-              <p>
+              <p class="text-lg-start text-sm-center text-center" >
                 <i class="fa-solid fa-location-dot mx-2 icon"></i>Center
                 building Block-A
               </p>
@@ -743,7 +744,7 @@
           </div>
           <div class="col-md-3 col-12">
             <div class="row g-0">
-              <div class="col-md-6 col-6">
+              <div class="col-md-6 col-lg-6 col-12">
                 <div class="gallery-content-2-up">
                   <img
                     src="https://img.freepik.com/free-photo/study-group-african-people_23-2149156396.jpg?size=626&ext=jpg&ga=GA1.1.1282468336.1675064497"
@@ -752,7 +753,7 @@
                   />
                 </div>
               </div>
-              <div class="col-md-6 col-6">
+              <div class="col-md-6 col-lg-6 col-12">
                 <div class="gallery-content-2-up">
                   <img
                     src="https://img.freepik.com/free-photo/students-attending-university-class_23-2148844743.jpg?size=626&ext=jpg&ga=GA1.1.1282468336.1675064497"
@@ -787,7 +788,7 @@
               </div>
             </div>
             <div class="row g-0">
-              <div class="col-md-6 col-6">
+              <div class="col-md-6 col-12">
                 <div class="gallery-content-2-up">
                   <img
                     src="https://img.freepik.com/premium-photo/online-class-online-education-e-learning-technology-mobile-smartphone-training-course-home-school-device-3d-illustration_20693-611.jpg?size=626&ext=jpg&ga=GA1.1.1282468336.1675064497"
@@ -796,7 +797,7 @@
                   />
                 </div>
               </div>
-              <div class="col-md-6 col-6">
+              <div class="col-md-6 col-12">
                 <div class="gallery-content-2-up">
                   <img
                     src="https://img.freepik.com/free-photo/group-caucasian-friends-studying-park-bench-during-daylight_181624-36068.jpg?size=626&ext=jpg&ga=GA1.2.1282468336.1675064497"
@@ -834,7 +835,7 @@
 
         <div class="LatestHead">
         <div class="row gy-5">
-          <div class="col-md-6">
+          <div class="col-md-12 col-lg-6">
             <div class="row gy-4 mob-view-gap">
               <div class="col-md-5">
                 <a href="">
@@ -869,7 +870,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-12 col-lg-6">
             <div class="row g-4 mob-view-gap">
               <div class="col-md-5">
                 <a href="">
@@ -904,7 +905,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-12 col-lg-6">
             <div class="row g-4">
               <div class="col-md-5">
                 <a href="">
@@ -939,7 +940,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-12 col-lg-6">
             <div class="row g-4">
               <div class="col-md-5">
                 <a href="">
@@ -1038,13 +1039,13 @@
               class="d-sm-flex footer-icons justify-content-sm-center justify-content-md-start"
             >
               <a href="#">
-                <i class="fa-brands fa-facebook-f icon-2 px-2"></i
+                <i class="fa-brands fa-facebook-f icon-2-fb px-2"></i
               ></a>
-              <a href="#"><i class="fa-brands fa-twitter icon-2 mx-2"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter icon-2-twit mx-2"></i></a>
               <a href="#"
-                ><i class="fa-brands fa-instagram icon-2 fw-bold"></i
+                ><i class="fa-brands fa-instagram icon-2-insta fw-bold"></i
               ></a>
-              <a href="#"><i class="fa-brands fa-youtube icon-2 mx-2"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube icon-2-utube mx-2"></i></a>
             </div>
           </div>
 
@@ -1169,6 +1170,9 @@
       crossorigin="anonymous"
     ></script>
     <script>
+
+
+
       let slideSearch = document.querySelector(".show-hide");
 
       function showBar() {
@@ -1178,6 +1182,46 @@
           slideSearch.style.display = "block";
         }
       }
+      // sticky
+
+  window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+    </script>
+
+    <script>
+    var deadline = new Date("feb 12, 2023 15:37:25").getTime();
+  
+    var x = setInterval(function() {
+      
+    var now = new Date().getTime();
+    var t = deadline - now;
+    var days = Math.floor(t / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
+    var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((t % (1000 * 60)) / 1000);
+    document.getElementById("day").innerHTML =days ;
+    document.getElementById("hour").innerHTML =hours;
+    document.getElementById("minute").innerHTML = minutes; 
+    document.getElementById("second").innerHTML =seconds; 
+    if (t < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "Time ended";
+            document.getElementById("day").innerHTML ='0';
+            document.getElementById("hour").innerHTML ='0';
+            document.getElementById("minute").innerHTML ='0' ; 
+            document.getElementById("second").innerHTML = '0'; }
+    }, 1000);
     </script>
   </body>
 </html>
