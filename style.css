@@ -116,14 +116,10 @@ a{
 
   .background{
     width: 100%;
-    background: rgba(0,0,0,0.7) url('https://img.freepik.com/free-photo/outdoor-portrait-serious-curly-female-student-sitting-with-laptop-ground_197531-6965.jpg?w=740&t=st=1675241083~exp=1675241683~hmac=791bd3410383f84a6208f3f95d5ef33026110106bbc8d0e42b5aa529482d778d');
+    background: rgba(0,0,0,0.5) url('https://img.freepik.com/free-photo/outdoor-portrait-serious-curly-female-student-sitting-with-laptop-ground_197531-6965.jpg?w=740&t=st=1675241083~exp=1675241683~hmac=791bd3410383f84a6208f3f95d5ef33026110106bbc8d0e42b5aa529482d778d');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    -webkit-background-size:cover ;
-    -moz-background-size:cover;
-    -moz-background-size:cover ;
-    top:0%;
     background-blend-mode: darken;
 }
 .main-section-contents p{
@@ -161,6 +157,15 @@ button{
     border: none;
     background-color: #fff;
 }
+.image-wrapper img{
+    height: 200px;
+    width: 100%;
+}
+.events-area .col-md-6 .image-wrapper img{
+    height: 300px;
+    width: 100%;
+}
+
 /* services */
 .services{
     padding-top: 40px;
@@ -177,10 +182,6 @@ button{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    -webkit-background-size:cover ;
-    -moz-background-size:cover;
-    -moz-background-size:cover ;
-    top:0%;
     background-blend-mode: darken;
     
 }
@@ -253,10 +254,6 @@ button{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    -webkit-background-size:cover ;
-    -moz-background-size:cover;
-    -moz-background-size:cover ;
-    top:0%;
     background-blend-mode: darken;
    
 }
@@ -341,10 +338,6 @@ button{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    -webkit-background-size:cover ;
-    -moz-background-size:cover;
-    -moz-background-size:cover ;
-    top:0%;
     background-blend-mode: darken;
     color: #fff;
 }
