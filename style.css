@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 input:focus{
@@ -17,6 +17,11 @@ ul li p{
     font-size: 19px;
     margin-bottom: 0;
 }
+.top-time{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .top-time a h6{
     color: #010137;
     font-weight: 700;
@@ -100,7 +105,9 @@ a{
   .show-hide {
     display: none; 
   }
-
+.nav-item p{
+    font-size: 16px;
+}
   li.nav-item:hover{
     background-color: orangered;
   }
@@ -125,7 +132,10 @@ a{
 .main-section-contents p{
     font-size: 18px;
 }
-
+.main-section-contents{
+    padding-top: 170px;
+    padding-bottom: 190px;
+}
 
 .spacing{
     letter-spacing: 5px;
@@ -147,6 +157,8 @@ button{
 }
 .countdown-bg{
     background: #010137;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .cursor{
     cursor: pointer;
@@ -156,6 +168,8 @@ button{
     border-radius: 50%;
     border: none;
     background-color: #fff;
+    height: 80px;
+    width: 80px;
 }
 .image-wrapper img{
     height: 200px;
@@ -186,20 +200,25 @@ button{
     
 }
 .timeline .container .row{
-    min-height: 80vh;
+    min-height: 100vh;
 }
 .cards-gap{
     margin-top: 80px;
 }
 .history-tl-container{
     position:relative;
+    padding-top: 10px;
+   
   }
   dl, ol, ul {
     margin-top: 0;
     margin-bottom: 1rem;
     padding-left: 16px;
 }
-
+.enrollment-content{
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
 .history-tl-container ul.tl li{
       list-style: none;
       border-left:1px dashed #d97211;
@@ -215,7 +234,7 @@ button{
       position: absolute;
       left: -18px;
       top: 0;
-      content: "1 ";
+      content: "";
       
      text-align: center;
       border-radius: 50%;
@@ -237,6 +256,13 @@ button{
 .course-area{
     padding-top:100px;
     padding-bottom:100px;
+}
+.course-description h4{
+    font-size: 20px;
+}
+
+.all-courses .row .col-lg-4{
+    padding-bottom: 30px;
 }
 
 .button-up{
@@ -283,26 +309,32 @@ button{
  }
 
  /* photo gallery */
- .photo-gallery.row{
-    height: 60vh;
- }
+
 .gallery-content-1 img{
-    height: 300px; 
-    width: 100%;  
+    height: auto;
+    width: 100%;
+    object-fit: cover;
 }
 .gallery-content-2-up img{
-    height: 150px;
+    height: 100%;
     width: 100%;
 }
 .gallery-content-3-down img{
-    height: 150px;
+    height: 100%;
     width: 100%;
+  
 }
 
 /* Latest news */
 .latest-news{
     padding-top: 40px;
     padding-bottom: 100px;
+}
+.Latest-Contents h5{
+    font-size: 22px;
+}
+.LatestHead .col-lg-6{
+    margin-bottom: 20px;
 }
 .latest-timing{
     font-size: 12px;
@@ -317,16 +349,24 @@ button{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
-
-.form-control{
-    border-radius: 500px ;
-}
 .btn{
     border-radius: 500px ;
     background:#d97211;
     border-color:#dedede !important;
     box-shadow: none !important;
+}
+
+.form-control{
+    border-radius: 500px ;
+}
+.main-section-contents a{
+    border-radius: 500px ;
+    background:#d97211;
+    border-color:#dedede !important;
+    box-shadow: none !important;
+    border: 0;
+    padding: 10px 35px;
+
 }
 button{
     border-color:#dedede;
@@ -356,6 +396,7 @@ button{
     background: #3b5998;
     color: #fff;
     font-size: 15px;
+    transition: ease-in-out 0.5s;
 }
 .icon-2-insta{
     padding: 5px;
@@ -372,6 +413,7 @@ button{
     background-image: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); ;
     color: #fff;
     font-size: 15px;
+    transition: ease-in-out 0.5s;
 }
 .icon-2-twit{
     padding: 5px;
@@ -380,6 +422,7 @@ button{
     background: #D3D3D3;
     color: #010137;
     font-size: 15px;
+    
 }
 .icon-2-twit:hover{
     padding: 5px;
@@ -388,6 +431,7 @@ button{
     background: #00acee ;
     color: #fff;
     font-size: 15px;
+    transition: ease-in-out 0.5s
 }
 .icon-2-utube{
     padding: 5px;
@@ -404,6 +448,7 @@ button{
     background: #FF0000;
     color: #fff;
     font-size: 15px;
+    transition: ease-in-out 0.5s;
 }
 
 
@@ -487,8 +532,12 @@ button{
 
     .timeline{
         height: auto;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .enrollment-content{
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
    
     .summary-area .container .row {
@@ -538,7 +587,7 @@ button{
         padding-bottom: 0;
         overflow-x: hidden;
     }
-    .gallery-content-1 img{
+    /* .gallery-content-1 img{
         height: 300px; 
         width: 100%;  
     }
@@ -549,7 +598,7 @@ button{
     .gallery-content-3-down img{
         height: 150px;
         width: 100%;
-    }
+    } */
   }
   @media (min-width: 768px) {
     .container-sm {

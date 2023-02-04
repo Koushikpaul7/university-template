@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -42,11 +40,11 @@
               </div>
             </div>
             <div class="col-md-9">
-              <div class="location d-flex justify-content-around">
-                <div class="d-flex align-items-center ">
+              <div class="location d-flex justify-content-end">
+                <div class="d-flex align-items-center top-time">
                   <i class="fa-regular fa-clock icon border-class me-3 fs-6">
                   </i>
-                  <div class="top-time">
+                  <div class="">
                     <a href="#">
                       <h6 class="text-uppercase">Working Time:</h6></a
                     >
@@ -55,15 +53,15 @@
                     >
                   </div>
                 </div>
-                <div class="d-flex align-items-center ">
+                <div class="d-flex align-items-center top-time">
                   <i class="fa-regular fa-clock icon border-class me-3 fs-6">
                   </i>
-                  <div class="top-time">
+                  <div class="">
                     <a href="#">
-                      <h6 class="text-uppercase">Working Time:</h6></a
+                      <h6 class="text-uppercase">Find us:</h6></a
                     >
                     <a href="#">
-                      <p class="text-muted">Monday-Friday: 08 AM-06 PM</p></a
+                      <p class="text-muted">Mirpur-14,Dhaka,Bangladesh</p></a
                     >
                   </div>
                 </div>
@@ -143,8 +141,8 @@
     <section class="background">
       <div class="container">
         <div class="row">
-          <div class="col-md-8">
-            <div class="my-md-5 py-5 main-section-contents">
+          <div class="col-md-7">
+            <div class=" main-section-contents">
               <p class="text-uppercase sub-text mb-5 spacing">
                 award winning university
               </p>
@@ -156,7 +154,7 @@
                 ipsam nostrum illo cupiditate dolorem officiis facilis,
               </p>
               <a href="#"
-                class="btn text-white rounded-pill border-0 text-uppercase fw-bold py-2 px-4"
+                class="btn text-white text-uppercase fw-bold "
               >
                 get started
             </a>
@@ -170,10 +168,10 @@
     <section class="countdown-bg">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 d-flex align-items-center">
             <div class="d-flex align-items-center">
               <i
-                class="fa-sharp fa-solid fa-graduation-cap bg-icon icon my-5 fs-2"
+                class="fa-sharp fa-solid fa-graduation-cap d-flex align-items-center justify-content-center bg-icon icon fs-2"
               ></i>
               <div class="d-flex flex-column ms-3 justify-content-center mt-3">
                 <h6 class="text-white">
@@ -186,7 +184,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-12 my-5" id="demo">
+          <div class="col-md-6 col-12 d-flex align-items-center justify-content-center" id="demo">
             <div class="row">
               <div class="col-md-3 col-3 border-end text-center">
                 <div class="d-flex flex-column mx-auto">
@@ -379,9 +377,11 @@
     <section class="timeline">
       <div class="container">
         <div class="row d-flex align-items-center">
-          <div class="col-md-6 text-white">
-            <h2>Enrollment</h2>
+          <div class="col-md-6 text-white d-flex align-items-center">
+            <div class="enrollment-content">
+              <h2>Enrollment</h2>
             <p>Get started with us to explore the exciting</p>
+           
             <div class="history-tl-container">
               <ul class="tl">
                 <li class="tl-item">
@@ -413,7 +413,8 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-6">
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
             <div class="img-container">
               <img
                 src="https://img.freepik.com/free-photo/free-time-students-bachelor-s-campus-life-rhythm-five-friendly-students-are-walking_8353-6408.jpg?size=626&ext=jpg&ga=GA1.1.1282468336.1675064497&semt=sph"
@@ -432,159 +433,173 @@
           <h3>Our Courses</h3>
           <p>Building a better world, one course at a time</p>
         </div>
-        <div class="row g-4 courses-row">
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="image-wrapper">
-              <img
-                src="https://img.freepik.com/free-photo/digital-marketing-with-icons-business-people_53876-94833.jpg?w=740&t=st=1675419494~exp=1675420094~hmac=ae78d1450305ca2d09248d024f5fb5c58bc106fbcfc069851be301c4f04734a6"
-                class="img-fluid"
-                alt=""
-              />
+        <div class="all-courses">
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="image-wrapper">
+                <img
+                  src="https://img.freepik.com/free-photo/digital-marketing-with-icons-business-people_53876-94833.jpg?w=740&t=st=1675419494~exp=1675420094~hmac=ae78d1450305ca2d09248d024f5fb5c58bc106fbcfc069851be301c4f04734a6"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="text-center button-up">
+                <button
+                  class="rounded-pill border-0 py-2 px-4 fw-bold spacing text-uppercase"
+                >
+                  Business
+                </button>
+              </div>
+              <div class="course-description">
+                <p class="text-center icon py-3 m-0">
+                  <i class="fa-regular fa-clock me-2"></i><span>30 jan 2023</span>
+                </p>
+                <h4 class="text-center mt-0">
+                  Certificate course writing for a global market.
+                </h4>
+                <h4 class="icon text-center pt-2">
+                  $100/ <small class="text-muted fs-6">month</small>
+                </h4>
+              </div>
             </div>
-            <div class="text-center button-up">
-              <button
-                class="rounded-pill border-0 py-2 px-4 fw-bold spacing text-uppercase"
-              >
-                Business
-              </button>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="image-wrapper">
+                <img
+                  src="https://img.freepik.com/free-vector/abstract-technology-sql-illustration_23-2149237079.jpg?w=740&t=st=1675419452~exp=1675420052~hmac=0c9acc71328d1e28251ace1701c150e0d671a71ee5ab2748dc395af570cdf6d0"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="text-center button-up">
+                <button
+                  class="rounded-pill border-0 py-2 px-4 fw-bold spacing text-uppercase"
+                >
+                  Database
+                </button>
+              </div>
+             <div class="course-description">
+              <p class="text-center icon py-3 m-0">
+                <i class="fa-regular fa-clock me-2"></i><span>30 jan 2023</span>
+              </p>
+              <h4 class="text-center mt-0">
+                Ultimate Mysql bootcamp: Go from SQL beginner to expert
+              </h4>
+              <h4 class="icon text-center pt-2">
+                $100/ <small class="text-muted fs-6">month</small>
+              </h4>
+             </div>
             </div>
-            <p class="text-center icon py-3 m-0">
-              <i class="fa-regular fa-clock me-2"></i><span>30 jan 2023</span>
-            </p>
-            <h4 class="text-center mt-0">
-              Certificate course writing for a global market.
-            </h4>
-            <h4 class="icon text-center pt-2">
-              $100/ <small class="text-muted fs-6">month</small>
-            </h4>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="image-wrapper">
+                <img
+                  src="https://img.freepik.com/free-photo/web-design-concepts-with-blurred-background_1134-82.jpg?w=740&t=st=1675419396~exp=1675419996~hmac=23a20575252122e67d8f76c394da7cff0809010ee299c9de1fdf767a4af9b00d"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="text-center button-up">
+                <button
+                  class="rounded-pill border-0 py-2 px-4 fw-bold spacing text-uppercase"
+                >
+                  Program
+                </button>
+              </div>
+             <div class="course-description">
+              <p class="text-center icon py-3 m-0">
+                <i class="fa-regular fa-clock me-2"></i><span>30 jan 2023</span>
+              </p>
+              <h4 class="text-center mt-0">
+                Web developer Bootcamp Make web Applications
+              </h4>
+              <h4 class="icon text-center pt-2">
+                $100/ <small class="text-muted fs-6">month</small>
+              </h4>
+             </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="image-wrapper">
+                <img
+                  src="https://img.freepik.com/premium-vector/online-payment-pay-per-click-concept_1302-13044.jpg?w=740"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="text-center button-up">
+                <button
+                  class="rounded-pill border-0 py-2 px-4 fw-bold spacing text-uppercase"
+                >
+                  Business
+                </button>
+              </div>
+              <div class="course-description">
+                <p class="text-center icon py-3 m-0">
+                  <i class="fa-regular fa-clock me-2"></i><span>30 jan 2023</span>
+                </p>
+                <h4 class="text-center mt-0">
+                  Google Adwords: Get more customer with search marketing
+                </h4>
+                <h4 class="icon text-center pt-2">
+                  $100/ <small class="text-muted fs-6">month</small>
+                </h4>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="image-wrapper">
+                <img
+                  src="https://img.freepik.com/free-photo/young-attractive-smiling-student-showing-thumb-up-outdoors-campus-university_8353-6394.jpg?w=740&t=st=1675418667~exp=1675419267~hmac=d2f93f5676ba2fe7d35e767527bd9b6b5f270f98ddd77b3ed5a8c7de46ae9951"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="text-center button-up">
+                <button
+                  class="rounded-pill border-0 py-2 px-4 fw-bold spacing text-uppercase"
+                >
+                  Marketing
+                </button>
+              </div>
+              <div class="course-description">
+                <p class="text-center icon py-3 m-0">
+                  <i class="fa-regular fa-clock me-2"></i><span>30 jan 2023</span>
+                </p>
+                <h4 class="text-center mt-0">
+                  Certificate course writing for a global market.
+                </h4>
+                <h4 class="icon text-center pt-2">
+                  $100/ <small class="text-muted fs-6">month</small>
+                </h4>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="image-wrapper">
+                <img
+                  src="https://img.freepik.com/premium-vector/man-worker-freelancer-digital-artist-flat-cartoon-illustration_133260-1188.jpg?w=740"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="text-center button-up">
+                <button
+                  class="rounded-pill border-0 py-2 px-4 fw-bold spacing text-uppercase"
+                >
+                  Design
+                </button>
+              </div>
+              <div class="course-description">
+                <p class="text-center icon py-3 m-0">
+                  <i class="fa-regular fa-clock me-2"></i><span>30 jan 2023</span>
+                </p>
+                <h4 class="text-center mt-0">
+                  Ultimate Drawing course: Beginner to Expert
+                </h4>
+                <h4 class="icon text-center pt-2">
+                  $100/ <small class="text-muted fs-6">month</small>
+                </h4>
+              </div>
+            </div>
+  
           </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="image-wrapper">
-              <img
-                src="https://img.freepik.com/free-vector/abstract-technology-sql-illustration_23-2149237079.jpg?w=740&t=st=1675419452~exp=1675420052~hmac=0c9acc71328d1e28251ace1701c150e0d671a71ee5ab2748dc395af570cdf6d0"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="text-center button-up">
-              <button
-                class="rounded-pill border-0 py-2 px-4 fw-bold spacing text-uppercase"
-              >
-                Database
-              </button>
-            </div>
-            <p class="text-center icon py-3 m-0">
-              <i class="fa-regular fa-clock me-2"></i><span>30 jan 2023</span>
-            </p>
-            <h4 class="text-center mt-0">
-              Ultimate Mysql bootcamp: Go from SQL beginner to expert
-            </h4>
-            <h4 class="icon text-center pt-2">
-              $100/ <small class="text-muted fs-6">month</small>
-            </h4>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="image-wrapper">
-              <img
-                src="https://img.freepik.com/free-photo/web-design-concepts-with-blurred-background_1134-82.jpg?w=740&t=st=1675419396~exp=1675419996~hmac=23a20575252122e67d8f76c394da7cff0809010ee299c9de1fdf767a4af9b00d"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="text-center button-up">
-              <button
-                class="rounded-pill border-0 py-2 px-4 fw-bold spacing text-uppercase"
-              >
-                Program
-              </button>
-            </div>
-            <p class="text-center icon py-3 m-0">
-              <i class="fa-regular fa-clock me-2"></i><span>30 jan 2023</span>
-            </p>
-            <h4 class="text-center mt-0">
-              Web developer Bootcamp Make web Applications
-            </h4>
-            <h4 class="icon text-center pt-2">
-              $100/ <small class="text-muted fs-6">month</small>
-            </h4>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="image-wrapper">
-              <img
-                src="https://img.freepik.com/premium-vector/online-payment-pay-per-click-concept_1302-13044.jpg?w=740"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="text-center button-up">
-              <button
-                class="rounded-pill border-0 py-2 px-4 fw-bold spacing text-uppercase"
-              >
-                Business
-              </button>
-            </div>
-            <p class="text-center icon py-3 m-0">
-              <i class="fa-regular fa-clock me-2"></i><span>30 jan 2023</span>
-            </p>
-            <h4 class="text-center mt-0">
-              Google Adwords: Get more customer with search marketing
-            </h4>
-            <h4 class="icon text-center pt-2">
-              $100/ <small class="text-muted fs-6">month</small>
-            </h4>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="image-wrapper">
-              <img
-                src="https://img.freepik.com/free-photo/young-attractive-smiling-student-showing-thumb-up-outdoors-campus-university_8353-6394.jpg?w=740&t=st=1675418667~exp=1675419267~hmac=d2f93f5676ba2fe7d35e767527bd9b6b5f270f98ddd77b3ed5a8c7de46ae9951"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="text-center button-up">
-              <button
-                class="rounded-pill border-0 py-2 px-4 fw-bold spacing text-uppercase"
-              >
-                Marketing
-              </button>
-            </div>
-            <p class="text-center icon py-3 m-0">
-              <i class="fa-regular fa-clock me-2"></i><span>30 jan 2023</span>
-            </p>
-            <h4 class="text-center mt-0">
-              Certificate course writing for a global market.
-            </h4>
-            <h4 class="icon text-center pt-2">
-              $100/ <small class="text-muted fs-6">month</small>
-            </h4>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="image-wrapper">
-              <img
-                src="https://img.freepik.com/premium-vector/man-worker-freelancer-digital-artist-flat-cartoon-illustration_133260-1188.jpg?w=740"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="text-center button-up">
-              <button
-                class="rounded-pill border-0 py-2 px-4 fw-bold spacing text-uppercase"
-              >
-                Design
-              </button>
-            </div>
-            <p class="text-center icon py-3 m-0">
-              <i class="fa-regular fa-clock me-2"></i><span>30 jan 2023</span>
-            </p>
-            <h4 class="text-center mt-0">
-              Ultimate Drawing course: Beginner to Expert
-            </h4>
-            <h4 class="icon text-center pt-2">
-              $100/ <small class="text-muted fs-6">month</small>
-            </h4>
-          </div>
-
         </div>
       
         
@@ -736,7 +751,7 @@
           <div class="col-md-3 col-12">
             <div class="gallery-content-1">
               <img
-                src="https://img.freepik.com/premium-photo/silhouettes-students-celebration-education-graduation-student-success-learning-concept-ceremony-university_43157-4013.jpg?size=626&ext=jpg"
+                src="/images//col-1 (1).png"
                 class="img-fluid"
                 alt=""
               />
@@ -747,7 +762,7 @@
               <div class="col-md-6 col-lg-6 col-12">
                 <div class="gallery-content-2-up">
                   <img
-                    src="https://img.freepik.com/free-photo/study-group-african-people_23-2149156396.jpg?size=626&ext=jpg&ga=GA1.1.1282468336.1675064497"
+                    src="/images/col-2 p-1 (1).jpg"
                     class="img-fluid"
                     alt=""
                   />
@@ -756,7 +771,7 @@
               <div class="col-md-6 col-lg-6 col-12">
                 <div class="gallery-content-2-up">
                   <img
-                    src="https://img.freepik.com/free-photo/students-attending-university-class_23-2148844743.jpg?size=626&ext=jpg&ga=GA1.1.1282468336.1675064497"
+                    src="/images/col-2 p-2 (1).jpg"
                     class="img-fluid"
                     alt=""
                   />
@@ -767,7 +782,7 @@
               <div class="col-md-12 col-12">
                 <div class="gallery-content-3-down">
                   <img
-                    src="https://img.freepik.com/free-photo/front-view-male-student-wearing-black-backpack-holding-copybooks-files-blue-wall_140725-42636.jpg?size=626&ext=jpg&ga=GA1.1.1282468336.1675064497"
+                    src="/images//col-2 p-1 (1).jpg"
                     class="img-fluid"
                     alt=""
                   />
@@ -780,7 +795,7 @@
               <div class="col-md-12 col-12">
                 <div class="gallery-content-3-down">
                   <img
-                    src="https://img.freepik.com/free-photo/front-view-female-student-white-shirt-black-jacket-wearing-backpack-holding-files-with-copybooks-blue-wall-college-university-lessons_140725-43393.jpg?size=626&ext=jpg&ga=GA1.1.1282468336.1675064497"
+                    src="/images/col-3 p-2 (1).jpg"
                     class="img-fluid"
                     alt=""
                   />
@@ -791,7 +806,7 @@
               <div class="col-md-6 col-12">
                 <div class="gallery-content-2-up">
                   <img
-                    src="https://img.freepik.com/premium-photo/online-class-online-education-e-learning-technology-mobile-smartphone-training-course-home-school-device-3d-illustration_20693-611.jpg?size=626&ext=jpg&ga=GA1.1.1282468336.1675064497"
+                    src="/images/col-3 p-3 (1).jpg"
                     class="img-fluid"
                     alt=""
                   />
@@ -800,7 +815,7 @@
               <div class="col-md-6 col-12">
                 <div class="gallery-content-2-up">
                   <img
-                    src="https://img.freepik.com/free-photo/group-caucasian-friends-studying-park-bench-during-daylight_181624-36068.jpg?size=626&ext=jpg&ga=GA1.2.1282468336.1675064497"
+                    src="/images/col-2 p-2 (1).jpg"
                     class="img-fluid"
                     alt=""
                   />
@@ -811,7 +826,7 @@
           <div class="col-md-3 col-12">
             <div class="gallery-content-1">
               <img
-                src="https://img.freepik.com/free-photo/redhead-girl-student-standing-library-near-shelves-reading-book-smiling_197531-22948.jpg?size=626&ext=jpg&ga=GA1.2.1282468336.1675064497"
+                src="/images//student-3500990_640.jpg"
                 class="img-fluid"
                 alt=""
               />
@@ -847,7 +862,8 @@
                 </a>
               </div>
               <div class="col-md-7">
-                <a href="#"
+                <div class="Latest-Contents">
+                  <a href="#"
                   ><h5 class="text-dark">
                     Friends try to be their best by sharing knowledge.
                   </h5>
@@ -867,6 +883,7 @@
                   Numquam nulla voluptate ratione quod excepturi enim iste,
                   autem obcaecati.
                 </p>
+                </div>
               </div>
             </div>
           </div>
@@ -882,7 +899,8 @@
                 </a>
               </div>
               <div class="col-md-7">
-                <a href="#"
+                <div class="Latest-Contents">
+                  <a href="#"
                   ><h5 class="text-dark">
                     Friends try to be their best by sharing knowledge.
                   </h5>
@@ -902,6 +920,8 @@
                   Numquam nulla voluptate ratione quod excepturi enim iste,
                   autem obcaecati.
                 </p>
+                </div>
+                
               </div>
             </div>
           </div>
@@ -917,7 +937,8 @@
                 </a>
               </div>
               <div class="col-md-7">
-                <a href="#"
+                <div class="Latest-Contents">
+                  <a href="#"
                   ><h5 class="text-dark">
                     Friends try to be their best by sharing knowledge.
                   </h5>
@@ -937,6 +958,7 @@
                   Numquam nulla voluptate ratione quod excepturi enim iste,
                   autem obcaecati.
                 </p>
+                </div>
               </div>
             </div>
           </div>
@@ -952,7 +974,8 @@
                 </a>
               </div>
               <div class="col-md-7">
-                <a href="#"
+                <div class="Latest-Contents">
+                  <a href="#"
                   ><h5 class="text-dark">
                     Friends try to be their best by sharing knowledge.
                   </h5>
@@ -972,6 +995,7 @@
                   Numquam nulla voluptate ratione quod excepturi enim iste,
                   autem obcaecati.
                 </p>
+                </div>
               </div>
             </div>
           </div>
